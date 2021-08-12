@@ -26,8 +26,9 @@ function binaryGap(N) {
         BinaryGapValues.push(BinaryGap)        
     }
     MaxBinaryGap = Math.max(...BinaryGapValues)
+    console.log(MaxBinaryGap)
     return MaxBinaryGap
 }
 }
 
-solution(32)
+binaryGap(32)
